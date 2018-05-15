@@ -137,12 +137,15 @@ my-app/
     index.html
     favicon.ico
   src/
-    App.css
-    App.js
-    App.test.js
-    index.css
     index.js
-    logo.svg
+	index.scss
+	index.css
+	actions
+    assets
+	reducers
+	middlewares
+	components/
+		HomPage
 ```
 
 For the project to build, **these files must exist with exact filenames**:
