@@ -1,0 +1,38 @@
+$black: #000;
+$white: #fff;
+
+.HomePage {
+	width: 100%;
+	height: 100%;
+	
+	.header { grid-area: header; }
+	.menu { grid-area: menu; }
+	.main-content { grid-area: main; }
+	.footer { grid-area: footer; }
+	
+	.grid-container.simple-showcase {
+		display: grid;
+		grid-template-areas:
+			'header header header header header header'
+			'menu menu main main main main'
+			'menu menu footer footer footer footer';
+		grid-gap: 1%;
+		background-color: #ececec;
+		padding: 1%;
+		
+		width: 98%;
+		height: 95%;
+		
+		color: #fff;
+	}
+	.grid-container > div {
+		background-color: rgba(0, 0, 0, 0.8);
+		text-align: center;
+		padding: 20px 0;
+		font-size: 20px;
+	}
+	.grid-container > .footer {
+		font-size: 15px;
+	}
+}
+
