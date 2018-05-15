@@ -140,12 +140,12 @@ my-app/
     index.js
 	index.scss
 	index.css
-	actions
-    assets
-	reducers
-	middlewares
+	actions/
+    assets/
+	reducers/
+	middlewares/
 	components/
-		HomPage
+		HomPage/
 ```
 
 For the project to build, **these files must exist with exact filenames**:
